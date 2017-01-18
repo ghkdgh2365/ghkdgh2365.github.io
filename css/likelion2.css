@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin:0;
+    display: block;
+}
+
+nav{
+    /*position:fixed;*/
+    display:flex;
+    width:100%;
+    height:70px;
+    background-color:white;
+}
+.container{
+    width:960px;
+    margin: 0 auto;
+    
+}
+
+.nav-content{
+    display:flex;
+    width:100%;
+    height:70px;
+}
+
+.nav-contents{
+    padding-top:10px;
+}
+.item{
+    text-align:center;
+    color:red;
+    flex-grow:1;
+    font-size:15px;
+}
+.item:nth-child(2){
+    flex-grow:10;
+    
+}
+.content{
+     display:flex;
+     /*border:3px dashed red;*/
+     flex-direction: column;
+     width:100%;
+     
+}
+
+.content header{
+    display:block;
+    width:100%;
+    height:600px;
+    background-image:url(http://cfile1.uf.tistory.com/image/25257E4753D84EE013DA26);
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align:center;
+
+}
+
+.content section{
+    padding-top:40px;
+    width:100%;
+    margin-top:10px;
+    
+}
+#section-content{
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+article{
+    text-align:center;
+    flex-grow:1;
+
+}
+
+.information{
+    margin-top:10px;
+    padding: 10px 10px 10px 10px;
+}
+
+img{
+    padding-top:10px;
+}
+.info-img{
+    width:310px;
+    height:310px;
+}
+.description{
+    margin:20px 10px 10px 10px;
+    font-size:15px;
+    
+}
+
+.content footer{
+    width:100%;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:black;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+
+
+}
+
+a{
+    position: relative;
+    display: block;
+    text-decoration:none;
+    color: black;
+    
+}
+a:visited {
+    color: black;
+}
+
+h1{
+    margin: 0 auto;
+    color:blue;
+    padding-top:20px;
+}
+h2{
+    font-weight:bold;
+    color:white;
+    text-align:center;
+    position:relative;
+    top:170px;
+    font-size:60px;
+}
+#sub{
+    font-weight: bold;
+    color:white;
+    text-align:center;
+    position:relative;
+    top:170px;
+    font-size:18px;
+}
